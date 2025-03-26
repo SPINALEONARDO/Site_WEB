@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6a9;
+    color: #000000;
+}
+
+header {
+    background-color: #009fad;
+    color: #ffffff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #009fad;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    height: 20px; /* Aumenta l'altezza per centrare meglio */
+    width: 100%;
+    bottom: 0;
+    display: flex; /* Aggiunto */
+    justify-content: center; /* Centra sull'asse X */
+    align-items: center; /* Centra sull'asse Y */
+}
+/*LINE SPESSE */
+hr {
+    border: none; 
+    height: 5px; /* Spessore della linea */
+    background-color: #009fad; /* Colore della linea */
+    margin: 40px 0; /* Spazio sopra e sotto la linea */
+}
+
+.logo { 
+    width: 200px; /* Cambia la larghezza a piacere */
+    height: 100px; /* Imposta un'altezza specifica */
+    object-fit: contain; /* Mantiene l'immagine proporzionata */
+}
+
+.video {
+    width: 500px; /* Cambia la larghezza a piacere */
+    height: auto; /* Mantiene l'aspect ratio originale */
+    max-width: 100%; /* Assicura che il video non superi il contenitore */
+    display: block;
+    margin: 0 auto; /* Centra il video */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+.progetto {
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+}
+
+.progetto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.discord-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7289da;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.discord-button:hover {
+    background-color: #677bc4;
+}
+
+.roblox-button:hover {
+    background-color: #d0d0d0;
+}
+
+
+/* DISCORD BUTTON *\
+/* Posizione e stile del bottone Discord */
+.discord-invite-button {
+    position: fixed;
+    bottom: 4px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.discord-invite-button img {
+    width: 35px; /* Modifica la dimensione del logo Discord */
+    height: 35px; /* Modifica la dimensione del logo Discord */
+    transition: transform 0.3s;
+}
+
+.discord-invite-button:hover img {
+    transform: scale(1.1);
+}
+
+/* ROBLOX BUTTON *\
+/* Posizione e stile del bottone Discord */
+.profile-roblox-button {
+    position: fixed;
+    bottom: 4px;
+    right: 60px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.profile-roblox-button img {
+    width: 35px; /* Modifica la dimensione del logo Discord */
+    height: 35px; /* Modifica la dimensione del logo Discord */
+    transition: transform 0.3s;
+}
+
+.profile-roblox-button:hover img {
+    transform: scale(1.1);
+}
+
+
